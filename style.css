@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'outfit';
+    src: url(assets/fonts/outfit/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'youngserif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+
+
+h2 {
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    font-family: 'youngserif', serif;
+    margin-bottom: 20px;
+}
+
+p ul ol{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Outfit', sans-serif;
+}
+
+hr {
+    border: 0.5px solid rgba(0, 0, 0, 0.214);
+    margin-block: 40px;
+}
+
+ol li::marker {
+    color: hsl(332, 51%, 32%);
+    font-family: 'outfit', sans-serif;
+    padding-inline-start: 20px;
+    font-weight: bold;
+    
+}
+
+ul li::marker {
+    color: hsl(332, 51%, 32%);
+    font-family: 'outfit', sans-serif;
+}
+
+ul li {
+    font-size: 16px;
+    color: hsl(0, 0%, 0%);
+    font-family: 'outfit', sans-serif;
+    line-height: 30px;
+}
+
+ol li {
+    font-size: 16px;
+    color: hsl(0, 0%, 0%);
+    font-family: 'outfit', sans-serif;
+    line-height: 30px;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+
+
+.recipe-card {
+    min-width: 412px;
+    max-width: 700px;
+    background-color: white;
+    padding-inline: 40px;
+    padding-bottom: 40px;
+}
+.recipe-card img {
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+.recipe-title {
+    margin-block: 40px;
+
+}
+
+.recipe-title h1 {
+    font-size: 40px;
+    font-family: 'youngserif', serif;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.recipe-title p {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'outfit', sans-serif;
+}
+
+
+
+.prep-sct {
+    padding-block: 20px;
+    padding-inline-start: 40px;
+    line-height: 30px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    font-family: 'outfit', sans-serif;
+}
+
+.prep-title {
+    font-size: 16px;
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+.prep-txt {
+    font-size: 16px;
+    color: hsl(0, 0%, 0%);
+    text-indent: 10px;
+    padding-inline-start: 15px;
+}
+
+.ingredient-sct {
+    line-height: 40px;
+    padding-block: 20px;
+    width: 100%;
+
+}
+
+.ingr-txt {
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    font-family: 'outfit', sans-serif;
+    line-height: 20px;
+}
+
+.instructions-sct {
+    line-height: 30px;
+    padding-block: 20px;
+    margin-inline-start: 40px;
+}
+
+.inst-txt {
+    font-size: 16px;
+    color: hsl(0, 0%, 0%);
+    font-family: 'outfit', sans-serif;
+    padding-inline-start: 20px;
+}
+
+.nutrition {
+    
+    line-height: 30px;
+    font-family: 'outfit', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block: 20px;
+}
+
+tr {
+    border-bottom: .5px solid rgba(0, 0, 0, 0.214);
+    line-height: 20px;
+}
+
+td {
+    padding-block: 10px;
+    padding-inline: 30px;
+}
+
+th {
+    text-align: left;
+    padding-block: 10px;
+    padding-inline: 40px;
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+        margin-inline: auto;
+        background-color: hsl(30, 54%, 90%);
+    }
+
+    .recipe-card {
+        margin-inline: auto;
+        margin-block: 30px;
+        border-radius: 20px;
+
+    }
+
+    .recipe-card img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover;
+       margin-top: 20px;
+       border-radius: 10px;
+    }
+
+    
+}
+
+
